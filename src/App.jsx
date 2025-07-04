@@ -1,13 +1,14 @@
+import Todo from "./components/Todo";
 import "./index.css";
 
 function App() {
 
 
   return (
-    <>
-    <h1 className="bg-red-500">todo-app</h1>
-    </>
-  )
+    <div className="bg-[#393E46] h-screen grid">
+      <Todo />
+    </div>
+  );
 }
 
-export default App
+export default App;
